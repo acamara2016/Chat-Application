@@ -17,7 +17,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.acamara.dm.login" />
         </activity>
-        <activity android:name=".Get_started">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

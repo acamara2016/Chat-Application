@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             public void run() {
-                getStarted();
+                setContentView(R.layout.get_started_page);
             }
         }, 5000);   //5 seconds
     }
